@@ -1,0 +1,14 @@
+package ct6;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IThanhToan ttTienMat = new ThanhToanTienMat();
+		ttTienMat.ThanhToan(15000000);
+		
+		IThanhToan ttTheTinDung = new ThanhToanTheTinDung();
+		ttTheTinDung.ThanhToan(8000000000);
+	}
+
+}
